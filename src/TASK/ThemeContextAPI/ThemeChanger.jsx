@@ -2,12 +2,9 @@ import React from "react";
 
 export let ContextAPI = React.createContext();
 
-
 const ThemeChanger = ({ children }) => {
 
   let [theme, setTheme] = React.useState(true);
-
-
 
   let themes = {
     light: {

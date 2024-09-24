@@ -1,6 +1,6 @@
 import React from 'react'
 import Parent from './Parent'
-import Child1 from './Child1'
+import "./Propsdrilling.css"
 
 const Propsdrilling = () => {
   return (
@@ -8,7 +8,6 @@ const Propsdrilling = () => {
         <h1 className='task-header'>PropsDrilling</h1>
         <div className="task-container Propsdrilling" >
           <Parent/>
-          <Child1/>
         </div>
       </div>
   )

@@ -1,20 +1,20 @@
-import React from "react";
-import Child2 from "./Child2";
 
-const Child1 = (props) => {
+import React from "react";
+import Child3 from "./Child3";
+
+const Child2 = (props) => {
   return (
-    <div id="child1">
-      <div className="child1-container">
-        <h1>Child 1</h1> 
+    <div id="child2">
+      <div className="child2-container">
+        <h1>Child 2</h1>
         <p>{props.data.property}</p>
         <p>{props.data.cars.car1}</p>
         <p>{props.data.cars.car2}</p>
         <p>{props.data.cars.car3}</p>
       </div>
-      <Child2 data={props.data} />
-
+      <Child3 data={props.data} />
     </div>
   );
 };
 
-export default Child1;
+export default Child2;
