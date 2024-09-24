@@ -1,8 +1,12 @@
 /* Task Header Container */
 .ThemeContextAPI {
   position: relative;
-  height: 600px;
+  height: 500px;
   transition: all 0.5s ease-in-out;
+}
+
+#ThemeContextAPI{
+  width: 70%;
 }
 #button {
   padding: 5px 10px;
@@ -18,11 +22,12 @@
 #div2,
 #div3,
 #div4 {
-  width: 200px;
-  height: 200px;
+  width: 170px;
+  height: 170px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   margin: 30px;
+  font-size: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
