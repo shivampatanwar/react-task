@@ -20,7 +20,8 @@
 #child1:hover,
 #child2:hover,
 #child3:hover{
-  box-shadow: 0 0 10px rgb(228, 15, 15);
+  /* box-shadow: 0 0 10px rgb(228, 15, 15); */
+  transform: scale(1.07);
 
 }
 

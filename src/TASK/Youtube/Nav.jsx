@@ -26,11 +26,19 @@ const Nav = () => {
         // }
     }
 
+    let handleHamberger = () => {
+        alert('Hamberger Clicked')
+    }
+
+    let handleAccount = () => {
+        alert('Profile/Account Clicked')
+    }
+
 
     return (
         <header>
             <div id='lefts'>
-                <div id='left'>
+                <div id='left'  onClick={handleHamberger}>
                     <div></div>
                     <div></div>
                     <div></div>
@@ -44,7 +52,7 @@ const Nav = () => {
 
             <div id='theme' ref={theme} onClick={themes} >&#9789;</div>
 
-            <div id='img'>
+            <div id='img' onClick={handleAccount}>
                 <img src={IMG} alt="" width={35} height={35} />
             </div>
 
