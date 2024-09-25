@@ -6,9 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base:"/react-task/",
   server: {
-    host: true,
     port: 8080,
     open: true,
-    https: true,
   }
 })

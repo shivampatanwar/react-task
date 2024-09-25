@@ -15,6 +15,16 @@
   border-radius: 10px;
 }
 
+
+.parent-container:hover,
+#child1:hover,
+#child2:hover,
+#child3:hover{
+  box-shadow: 0 0 10px rgb(228, 15, 15);
+
+}
+
+
 .parent-container {
   width: 900px;
   height: 300px;

@@ -79,14 +79,6 @@ const VideoPlayer = ({ data, play, handlePlay }) => {
                         </div>
                     </div>
 
-                    <div id='comment'>
-                        <img src={IMG} alt='' />
-
-                        <div>
-                            <p>@sureshchiruvella1850 1 year ago</p>
-                            <p>Knowledge+hardwork+honesty makes u a special person. Kudos to u hats off</p>
-                        </div>
-                    </div>
 
                     <div id='comment'>
                         <img src={IMG} alt='' />
@@ -99,24 +91,6 @@ const VideoPlayer = ({ data, play, handlePlay }) => {
                         </div>
                     </div>
 
-                    <div id='comment'>
-                        <img src={IMG} alt='' />
-
-                        <div>
-                            <p>@himanshuvlogs8332  4 days ago</p>
-                            <p>मुकेश सर के सामने सब संभव है
-                                प्राउड आप बहुत अच्छे और ईमानदार मैकेनिक हो सर</p>
-                        </div>
-                    </div>
-
-                    <div id='comment'>
-                        <img src={IMG} alt='' />
-
-                        <div>
-                            <p>@ganeshsolunke9767  1 year ago</p>
-                            <p>मुकेश भाई मेरा नाम गणेश देशमुख है मै महाराष्ट्र से हू मै तुमरे बहुतसे व्हिडीओ देक ता हू आप बहोत इमानदारी और इज्जत से काम करते हो इस लिये मेरे तरपसे आप सलाम</p>
-                        </div>
-                    </div>
 
                     <div id='comment'>
                         <img src={IMG} alt='' />

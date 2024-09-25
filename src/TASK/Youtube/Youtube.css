@@ -190,7 +190,8 @@ header {
   }
 
   #search {
-    width: 50vw;
+    width: 40vw;
+    padding-top: 5px;
 
     input {
       padding: 5px 10px;

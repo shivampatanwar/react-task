@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import VideoPlayer from "./VideoPlayer";
-import JSON from "./video.json";
+import JSON from "./video1.json";
 import Nav from "./Nav";
 import "./Youtube.css";
 
